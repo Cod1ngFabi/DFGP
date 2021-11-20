@@ -1,0 +1,31 @@
+// colors:
+$black: #010101;
+$white: #FFFFFF;
+$greenLogo: #294908;
+$redLogo: #C91709;
+$lightGray: #f1f1f1;
+
+// font-familys
+$heading-font: 'Trebuchet MS', sans-serif;
+$text-font: 'Times New Roman', serif;
+
+@mixin headingTwo {
+    font-size: 32px !important;
+    font-family: $heading-font;
+    text-transform: uppercase;
+}
+
+@mixin text {
+    font-size: 18px;
+    font-family: $text-font; 
+    margin-bottom: 16px;
+}
+
+@mixin section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 !important;
+    width: 100%;
+    height: auto;
+}
+

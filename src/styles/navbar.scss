@@ -1,0 +1,209 @@
+@import "variables";
+
+@mixin navEl{
+    font-size: 20px;
+    font-family: $heading-font;
+    color: $white;
+    display: inline;
+    margin-left: 20px; 
+    letter-spacing : 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.nav {
+    display: inline;    
+    width:100%;
+    height: 180px;
+    
+    .nav-row {
+        width: inherit;
+    }
+}
+
+.navigation-parent {
+    display: none;
+    color: white;
+    border: solid 1px white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0;
+    
+    .nav-element {
+        @include navEl;
+        text-decoration: none;
+        
+        &:hover {
+            color: $redLogo;
+            cursor: pointer;
+            text-decoration: underline solid $redLogo;
+        }
+    }
+}
+
+.logo-container{
+    height: auto;
+    width: auto;
+    margin-top: -100px;
+    img {
+        object-fit: cover;
+        display: block;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
+
+.col1 {
+    max-width: 30% !important;
+}
+
+.col2 {
+    max-width: 70% !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    color: white;
+    top: 0;
+    background: $black;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    width: 0;
+    overflow: hidden;
+    max-width: 200px;
+    z-index: 9;
+    font-size: 20px;
+    font-family: $heading-font;
+    color: $white;
+    display: inline;
+    letter-spacing : 1px;
+    padding-top: 32px;
+    display: none;
+    
+    &:hover {
+        color: $redLogo;
+        cursor: pointer;
+    }
+}
+  
+.menuNav.showMenu {
+    width: 100%;
+    display: inline;
+}
+  
+.toggleButton {
+    height: 30px;
+    cursor: pointer;
+    background-color: $black;
+    border:  none;
+    width: 40px;
+}
+  
+svg {
+   height: 30px;
+   width: 30px;
+   background-color: $black;
+   color: $white;
+}
+
+.topnav {
+    ul {
+        li {
+            margin-top: 40px;
+            .nav-element {
+                @include navEl;
+                text-decoration: none;
+                
+                &:hover {
+                    color: $redLogo;
+                    cursor: pointer;
+                    text-decoration: underline solid $redLogo;
+                }
+            }
+        }
+    }
+}
+
+.stage{
+    opacity: 0.5;
+}
+
+.centerStageText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1 {
+    font-family: $heading-font;
+    color: $white;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .navigation-parent {
+        display: none;
+    }
+}
+@media (min-width: 576px) { 
+    .navigation-parent {
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .toggleButton {
+        display: none;
+    }
+    .menuNav.showMenu {
+        display: none;
+    }
+    .navigation-parent {
+        display: inline;
+        .nav-element {
+            font-size: 18px;
+            margin-left: 10px;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .navigation-parent {
+        .nav-element {
+            @include navEl;
+        }
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+}
+
+

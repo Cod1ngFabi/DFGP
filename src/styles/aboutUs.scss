@@ -1,0 +1,28 @@
+@import "variables";
+
+.ueberSection {
+    @include section;
+    background-color: $lightGray;
+    @include text;    
+}
+
+.colUeber {
+    text-align: justify;
+    p {
+        @include text;
+    }
+    a {
+        color: $black;
+        &:hover {
+            color: $black;
+        }
+    }
+}
+
+h2 {
+   @include headingTwo;
+   margin-bottom: 16px !important;
+}
+
+
+

@@ -1,0 +1,90 @@
+@import "variables";
+
+.membershipSection {
+    @include section;
+    background-color: $white;
+}
+
+.membershipRow {
+    flex-direction: column;
+}
+
+.questions {
+    margin-top: 30px;
+    list-style: none;
+    @include text;
+    padding: 0;
+    li {
+       text-indent: 1px;
+       list-style: none;
+       margin-bottom: 10px;
+    &::before {
+        content: "🔥 ";
+    }    
+    }
+}
+
+.motivationText {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.memberImg {
+    box-shadow: -4px 5px 13px 5px rgba(0,0,0,0.31);
+    margin-top: 30px !important;
+    
+    img {
+        padding-top: 12px;
+    }
+    .slideShow{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        svg{
+            cursor: pointer;
+            &:hover {
+                background-color: $redLogo;
+            }
+        }
+    }
+}
+
+
+.applicationRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px !important;
+    
+    .applicationButton {
+        background-color: $redLogo;
+        color: $white;
+        width: 50% !important;
+        border-radius: 5px;
+        border: 1px solid $black !important;
+        &:hover {
+            transform: scale(1.08);
+        }
+    } 
+}
+
+@media (min-width: 576px) { 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .membershipRow {
+        flex-direction: row;
+    }
+}
+   
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+}
