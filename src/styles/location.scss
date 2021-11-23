@@ -1,0 +1,6 @@
+@import "variables";
+
+.locationSection {
+    @include section; 
+    background-color: $lightGray;
+}

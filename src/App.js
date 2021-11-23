@@ -2,6 +2,7 @@ import './styles/App.scss';
 import Navbar from './navbar';
 import AboutUs from './aboutUs';
 import Membership from './membership';
+import Location from './location.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaAngleUp } from 'react-icons/fa';
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <AboutUs />
       <Membership />
+      <Location />
       <button style={topButton}><a href="#top"><FaAngleUp style={arrowUp}/></a></button>
     </div>  
     );
