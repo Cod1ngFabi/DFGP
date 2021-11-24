@@ -2,5 +2,53 @@
 
 .locationSection {
     @include section; 
-    background-color: $lightGray;
+    background-color: #dbd8d8;
+    
+    .mapStyle {
+        height: 200px;
+        width: 100%;
+        border: 0px solid $black;
+        padding: 0;
+    }
+}
+
+.locationText {
+    @include text;
+    
+    .gameAreaHeading {
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    a {
+        color: $black;
+        &:hover {
+            color: $black;
+        }
+    }
+}
+
+@media (min-width: 576px) { 
+   
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .mapStyle {
+        height: 300px !important;
+    }
+}
+   
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .mapStyle {
+        height: 450px !important;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
 }
