@@ -7,7 +7,7 @@ import { FaAngleRight } from 'react-icons/fa';
 
 const Membership = () => {
     return(
-        <section id="mitgliedschaft" class="membershipSection">
+        <section id="mitgliedschaft" className="membershipSection">
             <Container style={{maxWidth: 850 + "px"}}>
                 <Row className="membershipRow">
                     <h2 style={{textAlign: "center"}}>Jetzt Mitglied werden!</h2>
