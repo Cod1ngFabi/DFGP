@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import AboutUs from './aboutUs';
 import Membership from './membership';
 import Location from './location.js';
+import League from './league';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaAngleUp } from 'react-icons/fa';
 
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Membership />
       <Location />
+      <League  />
       <button style={topButton}><a href="#top"><FaAngleUp style={arrowUp}/></a></button>
     </div>  
     );
