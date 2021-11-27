@@ -1,0 +1,12 @@
+@import "variables";
+
+.ligaSection {
+    @include section;
+    background-color: $white;
+    
+    .col {
+        margin-top: 30px;
+    }
+}
+
+
