@@ -13,7 +13,7 @@ const League = () => {
                         <p>Ostbayern 2021/2022</p>
                         <p>Kreisliga Deggendorf/Straubing</p>
                         <p>Zur aktuellen <a href="https://bdv-dart.liga.nu/cgi-bin/WebObjects/nuLigaDARTDE.woa/wa/groupPage?championship=DVO+2021%2F22&group=209483" target="_blank">Tabelle</a></p>
-                        <p>Downloads: <a href="././img/Spielplan.pdf" download="Spielplan.pdf" target="blank">Aktueller Spielplan</a> | <a href="././img/Kalender.ics" download="Kalender.ics" target="blank">Kalender</a></p>
+                        <p>Downloads: <a href="././img/Spielplan.pdf"  target="blank">Aktueller Spielplan</a> | <a href="././img/Kalender.ics"  target="blank">Kalender</a></p>
                     </Col>
                     <Col>
                         <Counter />
