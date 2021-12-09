@@ -1,0 +1,12 @@
+@import "variables";
+
+.newsSection {
+    @include section;
+    background-color: $lightGray;
+    
+    .newsFeed {
+        margin-top: 30px;
+        border:none;
+        overflow:hidden;
+    }
+}
