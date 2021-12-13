@@ -1,0 +1,113 @@
+@import "variables";
+
+.footerSection{
+    background-color: #3D3D3D;
+}
+
+.navList {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    list-style: none;
+    @include text;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Trebuchet MS", sans-serif;
+    li {
+        text-indent: 1px;
+        list-style: none;
+        margin-bottom: 10px;
+        a{
+            color: #FFFFFF7A;
+            text-decoration: none;
+            &:hover {
+                color: $redLogo;
+            }  
+        }
+    }
+}
+
+.footerLogo {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    img {
+        width: auto;
+        border-radius: 50px;
+    }
+}
+
+.infoFooter {
+    margin-top: 5px;
+    text-align: center;
+    color: #FFFFFF7A;
+    a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          color: $white;
+        }
+    }
+}
+
+.legal {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    list-style: none;
+    @include text;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Trebuchet MS", sans-serif;
+    li {
+        text-indent: 1px;
+        list-style: none;
+        margin-bottom: 10px;
+        a{
+            color: $white;
+            text-decoration: none;
+            &:hover {
+                color: $redLogo;
+            }  
+        }
+    }
+}
+
+.socialIconsBox {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .socialIcons {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        svg {
+            background-color: #3D3D3D;
+            &:hover {
+                color: $redLogo;
+            }
+        }
+    }
+}
+
+.creator {
+    margin-top: 16px !important;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF7A;
+    padding: 0;
+    a {
+        font-style: none;
+        text-decoration: none;
+        color: #FFFFFF7A;
+        &:hover {
+            color: #FFFFFF7A;
+        }
+    }
+}
