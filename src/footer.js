@@ -4,6 +4,7 @@ import { Col } from 'react-bootstrap';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaPhoneSquare } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { Link} from 'react-router-dom';
 
 
 
@@ -50,7 +51,7 @@ const Legal = () =>
 {
     return (
         <ul className="legal">
-            <li><a href="">Impressum</a></li>
+            <li><Link to="/Impressum"><a href="">Impressum</a></Link></li>
             <li><a href="">Datenschutz</a></li>
         </ul>
     )
