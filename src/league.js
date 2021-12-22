@@ -8,7 +8,7 @@ const League = () => {
         <section id="liga" className="ligaSection">
             <Container style={{maxWidth: 850 + "px"}}>
                 <Row className="ligaRow">
-                <h2 style={{textAlign: "center"}}>Liga</h2>
+                <h2 style={{textAlign: "center"}}>Wichtiges zum Ligabetrieb</h2>
                     <Col>
                         <p>Ostbayern 2021/2022</p>
                         <p>Kreisliga Deggendorf/Straubing</p>
