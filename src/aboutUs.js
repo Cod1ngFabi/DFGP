@@ -8,7 +8,7 @@ const AboutUs = () => {
             <Container style={{maxWidth: 850 + "px"}}>
                 <Row>
                     <Col className="colUeber">
-                    <h2 style={{textAlign: "center"}}>Wir stellen uns vor!</h2>
+                    <h2 style={{textAlign: "center"}}>Wir stellen uns vor</h2>
                     <p><strong>Die Dartsfreunde Geisling Pfatter e.V. (DFGP)</strong> sind ein eingetragener gemeinnütziger Dartsportverein mit der Spiel- und Trainingsstätte im „Gasthaus Posthorn“.
                          Als ein paar enthusiastische Dartspieler von  Geisling und Pfatter die Idee hatten, sich am Dartboard mit anderen Dartern in einer Liga zu messen, entstand die Vision einen Verein zu gründen.
                           Die Gründung des Vereins im Oktober 2021 war dann nur logische Konsequenz.
