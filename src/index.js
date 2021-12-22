@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Imprint from './imprint';
+import { Route, Routes, BrowserRouter} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}/>
+      <Route path="/Impressum" element={<Imprint />}/>
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
