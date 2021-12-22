@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar  = () => {
     return (
-       <header id="top">
+       <header id="home">
                 <Container fluid className="nav">
                     <Row className="nav-row" fluid>
                         <Col className="col1">
@@ -30,14 +30,14 @@ return (
         <li className="nav-element" ><a href="#mitgliedschaft" className="nav-element">Mitgliedschaft</a></li>
         <li className="nav-element" ><a href="#anfahrt" className="nav-element">Anfahrt</a></li>
         <li className="nav-element" ><a href="#liga" className="nav-element">Liga</a></li>
-        <li className="nav-element" ><a href="#kontakt" className="nav-element">Kontakt</a></li>
+        <li className="nav-element" ><a href="#aktuelles" className="nav-element">Aktuelles</a></li>
     </ul>
 );
 }
 
 const Logo = () => {
 return (
-    <a className="logo-container ">
+    <a className="logo-container" href="#home">
         <img className="" src="././img/DFGP_Logo_nav.png" alt="DFGP Logo"></img>
     </a>
 );
