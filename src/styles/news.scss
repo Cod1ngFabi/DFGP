@@ -7,6 +7,33 @@
     .newsFeed {
         margin-top: 30px;
         border:none;
-        overflow:hidden;
+        overflow:hidden; 
+    }
+}
+
+@media (min-width: 576px) { 
+   .newsFeed{
+       width: 450px;
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .newsFeed{
+        width: 500px;
+    }
+}
+   
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .newsFeed{
+        width: 500px;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .newsFeed{
+        width: 500px;
     }
 }
