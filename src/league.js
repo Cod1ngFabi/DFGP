@@ -10,10 +10,9 @@ const League = () => {
                 <Row className="ligaRow">
                 <h2 style={{textAlign: "center"}}>Wichtiges zum Ligabetrieb</h2>
                     <Col>
-                        <p>Ostbayern 2021/2022</p>
-                        <p>Kreisliga Deggendorf/Straubing</p>
-                        <p>Zur aktuellen <a href="https://bdv-dart.liga.nu/cgi-bin/WebObjects/nuLigaDARTDE.woa/wa/groupPage?championship=DVO+2021%2F22&group=209483" target="_blank">Tabelle</a></p>
-                        <p>Downloads: <a href="././img/Spielplan.pdf"  target="blank">Aktueller Spielplan</a> | <a href="././img/Kalender.ics"  target="blank">Kalender</a></p>
+                        <p>Der DFGP ist aktuell mit einer Mannschaft für die Saison 2021/2022 Ostbayern in der Kreisliga Deggendorf/Straubing angemeldet.</p>
+                        <p>Hier kommen Sie Zu der aktuellen <a href="https://bdv-dart.liga.nu/cgi-bin/WebObjects/nuLigaDARTDE.woa/wa/groupPage?championship=DVO+2021%2F22&group=209483" target="_blank">Tabelle.</a></p>
+                        <p>Downloads: <a href="././img/Spielplan.pdf"  target="blank">Aktueller Spielplan</a> | <a href="././img/Kalender.ics"  target="blank">Kalender | </a></p>
                     </Col>
                     <Col>
                         <Counter />
