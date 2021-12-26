@@ -3,9 +3,28 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { FaAngleLeft } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
+import React from 'react';
 
 
 const Membership = () => {
+    const [count, setCount] = React.useState(0);
+    const imgs = ["TeamfotoGruene.jpg", "WeihnachtsfeierTeamfoto.jpg","Weihnachtsturnier.jpg", "GruppenfotoHelmut.jpg"];
+    let actualFoto = "././img/galery/"+imgs[count];
+    
+    const handleLeftClick = () => {
+        if(count == 0){
+            setCount(imgs.length-1);
+            return;
+        }
+        setCount(count-1)
+    }
+    const handleRightClick = () => {
+        if(count == imgs.length-1){
+            setCount(0);
+            return;
+        }
+        setCount(count+1)
+    }
     return(
         <section id="mitgliedschaft" className="membershipSection">
             <Container style={{maxWidth: 850 + "px"}}>
@@ -16,9 +35,9 @@ const Membership = () => {
                         <MotivationText />
                     </Col>
                     <Col className="memberImg">
-                        <img className="img-fluid" src="././img/Teamfoto_buehne.jpg" alt="DFGP Team Foto vom ersten Spieltag" ></img>
+                        <img className="img-fluid" src={actualFoto} alt="DFGP Team Foto vom ersten Spieltag" ></img>
                         <div className="slideShow">
-                            <FaAngleLeft /><FaAngleRight />
+                            <FaAngleLeft onClick={handleLeftClick}/><FaAngleRight onClick={handleRightClick}/>
                         </div>
                     </Col>
                 </Row>
