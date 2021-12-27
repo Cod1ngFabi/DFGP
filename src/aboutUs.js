@@ -9,9 +9,9 @@ const AboutUs = () => {
                 <Row>
                     <Col className="colUeber">
                     <h2 style={{textAlign: "center"}}>Wir stellen uns vor</h2>
-                    <p><strong>Die Dartsfreunde Geisling Pfatter e.V. (DFGP)</strong> sind ein eingetragener gemeinnütziger Dartsportverein mit der Spiel- und Trainingsstätte im „Gasthaus Posthorn“.
+                    <p><strong>Die Dartfreunde Geisling-Pfatter e.V. (DFGP)</strong> sind ein eingetragener gemeinnütziger Dartsportverein mit der Spiel- und Trainingsstätte im „Gasthaus Posthorn“.
                          Als ein paar enthusiastische Dartspieler von  Geisling und Pfatter die Idee hatten, sich am Dartboard mit anderen Dartern in einer Liga zu messen, entstand die Vision einen Verein zu gründen.
-                          Die Gründung des Vereins im Oktober 2021 war dann nur logische Konsequenz.
+                         Die Gründung des Vereins im Oktober 2021 war dann nur logische Konsequenz.
                          Seit der Saison 2021/20222 nehmen wir am <a href="https://bdv-dart.liga.nu/cgi-bin/WebObjects/nuLigaDARTDE.woa/wa/clubInfoDisplay?club=2081" target="blank">Ligabetrieb in der Kreisliga Deggendorf/Straubing</a> teil.</p>
                          <h2 style={{textAlign: "center", marginTop: 30 + "px"}}>Game on!</h2>
                          <p>
@@ -31,6 +31,5 @@ const AboutUs = () => {
         </section>
     )
 }
-
 
 export default AboutUs;
