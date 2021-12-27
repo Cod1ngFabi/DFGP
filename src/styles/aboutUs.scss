@@ -6,6 +6,20 @@
     @include text;    
 }
 
+.centerStageText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1 {
+    font-family: $heading-font;
+    color: $white;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
 .colUeber {
     text-align: justify;
     p {
