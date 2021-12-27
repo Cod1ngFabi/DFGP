@@ -12,14 +12,14 @@ const Membership = () => {
     let actualFoto = "././img/galery/"+imgs[count];
     
     const handleLeftClick = () => {
-        if(count == 0){
+        if(count === 0){
             setCount(imgs.length-1);
             return;
         }
         setCount(count-1)
     }
     const handleRightClick = () => {
-        if(count == imgs.length-1){
+        if(count === imgs.length-1){
             setCount(0);
             return;
         }
@@ -64,7 +64,7 @@ const QuestionList = () => {
 
 const MotivationText = () => {
     return (
-       <div class="motivationText"> 
+       <div className="motivationText"> 
        <p>Es trifft mindestens einer der Punkte auf dich zu? Na dann los! Wir freuen uns über jedes weitere Mitglied, dass wir begrüßen dürfen!</p>
        <p>Training ist immer Mittwochs und Sonntags um 19:00.</p>
        <p>Schaut gerne einfach mal vorbei!</p>

@@ -17,7 +17,7 @@ const Footer = () => {
                     <FooterNavList />
                 </Col>
                 <Col>
-                    <a className="footerLogo" href="#home">
+                    <a className="footerLogo" href="#top">
                         <img className="" src="././img/DFGP_Logo_nav.png" alt="DFGP Logo"></img>
                     </a>
                     <p className="infoFooter">Gasthaus Posthorn | Hauptstraße 52, 93102 Pfatter | <a href="mailto: DartfreundeGeislingPfatter@gmx.de">DartfreundeGeislingPfatter@gmx.de</a></p>
@@ -29,7 +29,7 @@ const Footer = () => {
             </Row>  
           </Container>
           <Row style={{padding: 0, margin: 0, borderTop: "solid 1px #FFFFFF7A"}}>
-            <p className="creator">Designed by <a href="https://github.com/Cod1ngFabi" target="_blank">Cod1ngFabi</a></p>    
+            <p className="creator">Designed by <a href="https://github.com/Cod1ngFabi" target="_blank" rel="noreferrer">Cod1ngFabi</a></p>    
           </Row>
       </footer>  
     )
@@ -51,8 +51,8 @@ const Legal = () =>
 {
     return (
         <ul className="legal">
-            <li><Link to="/Impressum"><a href="">Impressum</a></Link></li>
-            <li><a href="">Datenschutz</a></li>
+            <li><Link to="/Impressum">Impressum</Link></li>
+            <li><a>Datenschutz</a></li>
         </ul>
     )
 }
@@ -61,7 +61,7 @@ const SocialIcons = () => {
     return (
         <div className="socialIconsBox">
          <div className="socialIcons">
-             <span><a href="https://www.facebook.com/Dartfreunde-Geisling-Pfatter-eV-102601505575227/" target="_blank"><FaFacebookSquare /></a></span>
+             <span><a href="https://www.facebook.com/Dartfreunde-Geisling-Pfatter-eV-102601505575227/" target="_blank" rel="noreferrer"><FaFacebookSquare /></a></span>
              <span><a href="tel: 01705876077"><FaPhoneSquare /></a></span>
              <span><a href="mailto: DartfreundeGeislingPfatter@gmx.de"><FaEnvelope /></a></span>
          </div>

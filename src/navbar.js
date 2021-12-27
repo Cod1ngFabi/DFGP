@@ -6,8 +6,8 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar  = () => {
     return (
-       <header id="home">
-                <Container fluid className="nav">
+       <header id="top">
+                <Container className="nav" fluid>
                     <Row className="nav-row" fluid>
                         <Col className="col1">
                             <Logo /> 
@@ -37,7 +37,7 @@ return (
 
 const Logo = () => {
 return (
-    <a className="logo-container" href="#home">
+    <a className="logo-container" href="/">
         <img className="" src="././img/DFGP_Logo_nav.png" alt="DFGP Logo"></img>
     </a>
 );
@@ -47,7 +47,7 @@ const Stage = () => {
 return (
     <>
     <img className="img-fluid stage" src="././img/Teamfoto_buehne.jpg" alt="DFGP Team Foto vom ersten Spieltag" ></img>
-    <div class="centerStageText"><h1>Herzlich Wilkommen beim DFGP!</h1></div>
+    <div className="centerStageText"><h1>Herzlich Wilkommen beim DFGP!</h1></div>
     </>
 );
 }
@@ -61,7 +61,7 @@ const Hamburger = () => {
       
     return (
 
-<div class="topnav">
+<div className="topnav">
   <ul id="hamburger" className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
     <li className="nav-element" onClick={handleToggle}><a href="#ueber" className="nav-element">Über Uns</a></li>
     <li><a href="#mitgliedschaft" className="nav-element" onClick={handleToggle}>Mitgliedschaft</a></li>
