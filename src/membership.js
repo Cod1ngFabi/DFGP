@@ -66,7 +66,7 @@ const MotivationText = () => {
     return (
        <div className="motivationText"> 
        <p>Es trifft mindestens einer der Punkte auf dich zu? Na dann los! Wir freuen uns über jedes weitere Mitglied, dass wir begrüßen dürfen!</p>
-       <p>Training ist immer Mittwochs und Sonntags um 19:00.</p>
+       <p>Training ist immer: <br /><b>Mittwochs &nbsp; 19:00 </b><br /><b>Sonntags &nbsp;&nbsp;&nbsp;&nbsp;19:00</b></p>
        <p>Schaut gerne einfach mal vorbei!</p>
        <p><strong>Euer DFGP</strong></p>
        </div>
