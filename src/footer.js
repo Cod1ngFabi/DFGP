@@ -52,7 +52,7 @@ const Legal = () =>
     return (
         <ul className="legal">
             <li><Link to="/Impressum">Impressum</Link></li>
-            <li><a>Datenschutz</a></li>
+            <li><Link to="/Datenschutz">Datenschutz</Link></li>
         </ul>
     )
 }
