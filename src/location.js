@@ -2,7 +2,8 @@ import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import React from 'react';
-
+import ScheibenZu from './img/location/ScheibenZu.jpg';
+import ScheibenOffen from './img/location/ScheibenOffen.jpg';
 
 const Location = () => {
 return (
@@ -23,12 +24,12 @@ return (
             <Row style={{marginTop: 30 + "px"}}>
                 <Col>
                     <div>
-                        <img className="img-fluid swapImage" src="././img/location/ScheibenZu.jpg" alt="Die Spielstätte des DFGP"></img>
+                        <img className="img-fluid swapImage" src={ScheibenZu} alt="Die Spielstätte des DFGP"></img>
                     </div>
                 </Col>
                 <Col>
                     <div>
-                        <img className="img-fluid swapImage" src="././img/location/ScheibenOffen.jpg" alt="Die Spielstätte des DFGP" ></img>
+                        <img className="img-fluid swapImage" src={ScheibenOffen} alt="Die Spielstätte des DFGP" ></img>
                     </div>
                 </Col>
             </Row>

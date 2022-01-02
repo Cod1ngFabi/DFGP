@@ -2,6 +2,8 @@ import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import React, { useState, useEffect} from 'react';
+import Spielplan from './img/Spielplan.pdf';
+import Kalender from './img/Kalender.ics';
 
 const League = () => {
     return (
@@ -12,7 +14,7 @@ const League = () => {
                     <Col>
                         <p>Der DFGP ist aktuell mit einer Mannschaft für die Saison 2021/2022 Ostbayern in der Kreisliga Deggendorf/Straubing angemeldet.</p>
                         <p>Hier kommen Sie Zu der aktuellen <a href="https://bdv-dart.liga.nu/cgi-bin/WebObjects/nuLigaDARTDE.woa/wa/groupPage?championship=DVO+2021%2F22&group=209483" target="_blank" rel="noreferrer">Tabelle.</a></p>
-                        <p>Downloads: <a href="././img/Spielplan.pdf"  target="_blank" rel="noreferrer">Aktueller Spielplan</a> | <a href="././img/Kalender.ics"  target="_blank" rel="noreferrer">Kalender | </a></p>
+                        <p>Downloads: <a href={Spielplan}  target="_blank" rel="noreferrer">Aktueller Spielplan</a> | <a href={Kalender}  target="_blank" rel="noreferrer">Kalender | </a></p>
                     </Col>
                     <Col>
                         <Counter />

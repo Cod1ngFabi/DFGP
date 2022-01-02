@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/DFGP/static/css/main.5e78e8a1.chunk.css",
+    "main.js": "/DFGP/static/js/main.5d836e6e.chunk.js",
+    "main.js.map": "/DFGP/static/js/main.5d836e6e.chunk.js.map",
+    "runtime-main.js": "/DFGP/static/js/runtime-main.d385bea5.js",
+    "runtime-main.js.map": "/DFGP/static/js/runtime-main.d385bea5.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/DFGP/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.1450bc66.chunk.js": "/DFGP/static/js/2.1450bc66.chunk.js",
+    "static/js/2.1450bc66.chunk.js.map": "/DFGP/static/js/2.1450bc66.chunk.js.map",
+    "static/js/3.11938a5f.chunk.js": "/DFGP/static/js/3.11938a5f.chunk.js",
+    "static/js/3.11938a5f.chunk.js.map": "/DFGP/static/js/3.11938a5f.chunk.js.map",
+    "index.html": "/DFGP/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/DFGP/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.5e78e8a1.chunk.css.map": "/DFGP/static/css/main.5e78e8a1.chunk.css.map",
+    "static/js/2.1450bc66.chunk.js.LICENSE.txt": "/DFGP/static/js/2.1450bc66.chunk.js.LICENSE.txt",
+    "static/media/DFGP_Logo_nav.45532792.png": "/DFGP/static/media/DFGP_Logo_nav.45532792.png",
+    "static/media/GruppenfotoHelmut.96802410.jpg": "/DFGP/static/media/GruppenfotoHelmut.96802410.jpg",
+    "static/media/Kalender.f618b552.ics": "/DFGP/static/media/Kalender.f618b552.ics",
+    "static/media/ScheibenOffen.0c1e5e08.jpg": "/DFGP/static/media/ScheibenOffen.0c1e5e08.jpg",
+    "static/media/ScheibenZu.3d4776df.jpg": "/DFGP/static/media/ScheibenZu.3d4776df.jpg",
+    "static/media/Spielplan.a5dcb5a6.pdf": "/DFGP/static/media/Spielplan.a5dcb5a6.pdf",
+    "static/media/TeamfotoGruene.f3d2af53.jpg": "/DFGP/static/media/TeamfotoGruene.f3d2af53.jpg",
+    "static/media/Teamfoto_buehne.71c90023.jpg": "/DFGP/static/media/Teamfoto_buehne.71c90023.jpg",
+    "static/media/WeihnachtsfeierTeamfoto.f41ea21d.jpg": "/DFGP/static/media/WeihnachtsfeierTeamfoto.f41ea21d.jpg",
+    "static/media/Weihnachtsturnier.0151806d.jpg": "/DFGP/static/media/Weihnachtsturnier.0151806d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d385bea5.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.1450bc66.chunk.js",
+    "static/css/main.5e78e8a1.chunk.css",
+    "static/js/main.5d836e6e.chunk.js"
+  ]
+}

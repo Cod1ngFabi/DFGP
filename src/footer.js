@@ -5,6 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaPhoneSquare } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { Link} from 'react-router-dom';
+import DFGP_Logo_nav from './img/DFGP_Logo_nav.png';
 
 
 
@@ -18,7 +19,7 @@ const Footer = () => {
                 </Col>
                 <Col>
                     <a className="footerLogo" href="#top">
-                        <img className="" src="././img/DFGP_Logo_nav.png" alt="DFGP Logo"></img>
+                        <img className="img-fluid stage" src={DFGP_Logo_nav} alt="DFGP Logo"></img>
                     </a>
                     <p className="infoFooter">Gasthaus Posthorn | Hauptstraße 52, 93102 Pfatter | <a href="mailto: DartfreundeGeislingPfatter@gmx.de">DartfreundeGeislingPfatter@gmx.de</a></p>
                 </Col>

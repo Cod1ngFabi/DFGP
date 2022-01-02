@@ -4,12 +4,16 @@ import { Col } from 'react-bootstrap';
 import { FaAngleLeft } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
 import React from 'react';
+import TeamfotoGruene from './img/gallery/TeamfotoGruene.jpg';
+import WeihnachtsfeierTeamfoto from './img/gallery/WeihnachtsfeierTeamfoto.jpg';
+import Weihnachtsturnier from './img/gallery/Weihnachtsturnier.jpg';
+import GruppenfotoHelmut from './img/gallery/GruppenfotoHelmut.jpg';
 
 
 const Membership = () => {
     const [count, setCount] = React.useState(0);
-    const imgs = ["TeamfotoGruene.jpg", "WeihnachtsfeierTeamfoto.jpg","Weihnachtsturnier.jpg", "GruppenfotoHelmut.jpg"];
-    let actualFoto = "././img/galery/"+imgs[count];
+    const imgs = [TeamfotoGruene, WeihnachtsfeierTeamfoto, Weihnachtsturnier, GruppenfotoHelmut];
+    let actualFoto = imgs[count];
     
     const handleLeftClick = () => {
         if(count === 0){

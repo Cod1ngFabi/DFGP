@@ -3,11 +3,13 @@ import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { FaBars } from "react-icons/fa";
+import DFGP_Logo_nav from './img/DFGP_Logo_nav.png';
+import Teamfoto_buehne from './img/Teamfoto_buehne.jpg';
 
 const Navbar  = () => {
     return (
        <header id="top">
-                <Container className="nav" fluid>
+                <Container className="nav" style={{padding: 0 + "!important"}}>
                     <Row className="nav-row" fluid>
                         <Col className="col1">
                             <Logo /> 
@@ -38,7 +40,7 @@ return (
 const Logo = () => {
 return (
     <a className="logo-container" href="/">
-        <img className="" src="././img/DFGP_Logo_nav.png" alt="DFGP Logo"></img>
+        <img className="" src={DFGP_Logo_nav} alt="DFGP Logo"></img>
     </a>
 );
 }
@@ -46,7 +48,7 @@ return (
 const Stage = () => {
 return (
     <>
-    <img className="img-fluid stage" src="././img/Teamfoto_buehne.jpg" alt="DFGP Team Foto vom ersten Spieltag" ></img>
+    <img className="img-fluid stage" src={Teamfoto_buehne} alt="DFGP Team Foto vom ersten Spieltag" ></img>
     <div className="centerStageText"><h1>Herzlich Wilkommen beim DFGP!</h1></div>
     </>
 );

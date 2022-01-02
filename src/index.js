@@ -13,7 +13,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />}/>
       <Route path="/Impressum" element={<Imprint />}/>
-      <Route path="Datenschutz" element={<Privacy />}></Route>
+      <Route path="/Datenschutz" element={<Privacy />}></Route>
       <Route path="*" element={<NotFound />}/>
     </Routes>
   </BrowserRouter>,
